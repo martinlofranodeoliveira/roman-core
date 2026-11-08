@@ -1,0 +1,14 @@
+{
+  "name": "roman-core",
+  "version": "0.1.0",
+  "description": "Roman numerals 1..3999: canonical encoding, strict decoding, round-trip guarantee. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/roman.test.js",
+    "demo": "node bin/roman.mjs --assert"
+  }
+}
